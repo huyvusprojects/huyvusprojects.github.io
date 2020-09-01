@@ -19,8 +19,11 @@ html, body {
   width: 100%;
 }
 
-.filler {
-  height: 20%;
+.filler1 {
+  height: 25%;
+}
+.filler2 {
+  height: 15%;
 }
 .contents {
 
