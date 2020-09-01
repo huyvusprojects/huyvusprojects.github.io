@@ -20,15 +20,15 @@ html, body {
 }
 
 .filler1 {
-  height: 25%;
+  height: 20%;
 }
 .filler2 {
-  height: 15%;
+  height: 10%;
 }
 .contents {
 
   min-height: 250px;
-  height: 60%;
+  height: 70%;
 }
 
 #display {
