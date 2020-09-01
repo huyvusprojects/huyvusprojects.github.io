@@ -1,0 +1,45 @@
+
+html, body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+}
+#title {
+  font-family: "Nexus Typewriter Pro", sans-serif, serif;
+  position: fixed;
+  width: 200px;
+  height: 150px;
+  top: 0;
+  left: 25px;
+}
+.container {
+  position:fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.filler {
+  height: 20%;
+}
+.contents {
+
+  min-height: 250px;
+  height: 60%;
+}
+
+#display {
+  height: 100%;
+  width: 100%;
+}
+
+tr {
+  height: 33.2%;
+  width: 100%;
+}
+td {
+  width: 33.2%;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Proxima Nova Medium", sans-serif, serif;
+  font-size: 2em;
+}
