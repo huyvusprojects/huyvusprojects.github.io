@@ -20,15 +20,26 @@ html, body {
 }
 
 .filler {
-  height: 75%;
-}
-.contents {
-
-  min-height: 150px;
   height: 25%;
 }
+.contents {
+  width: 100%;
+  min-height: 150px;
+  height: 75%;
+}
+.information {
+  height: 60%;
+}
 
+.navbar {
+  height: 40%;
+}
 #display {
+  font-family: "Proxima Nova Medium", sans-serif, serif;
+  font-size: 1em;
+}
+
+table {
   height: 100%;
   width: 100%;
 }
@@ -42,6 +53,5 @@ td {
   width: 19%;
   text-align: center;
   vertical-align: middle;
-  font-family: "Proxima Nova Medium", sans-serif, serif;
-  font-size: 1em;
+
 }
