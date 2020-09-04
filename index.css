@@ -6,9 +6,10 @@ html, body {
 }
 #title {
   font-family: "Nexus Typewriter Pro", sans-serif, serif;
+  font-size: 1.5em;
   line-height: 1em;
   position: fixed;
-  width: 200px;
+  width: 500px;
   height: 150px;
   top: 25px;
   left: 50px;
