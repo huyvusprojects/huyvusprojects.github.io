@@ -9,10 +9,11 @@ html, body {
   font-size: 1.3em;
   line-height: 1em;
   position: fixed;
-  width: 200px;
+  width: 150px;
   height: 150px;
   top: 25px;
   left: 50px;
+  background-image: url("index.html");
 }
 .container {
   position:fixed;
