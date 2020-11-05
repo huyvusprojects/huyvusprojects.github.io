@@ -54,6 +54,7 @@ table {
   width: 100%;
 }
 a { color: inherit; }
+a:hover { COLOR: #999999 }
 
 tr {
   height: 15%;
