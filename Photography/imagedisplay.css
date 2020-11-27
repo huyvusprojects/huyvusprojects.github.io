@@ -18,11 +18,13 @@ html, body {
 }
 .container {
   height: auto;
+
   width: 100%;
 }
 
 .contents {
   width: 100%;
+
 }
 
 img {
@@ -43,7 +45,7 @@ img {
 }
 
 .filler {
-  height: 20%;
+  height: 60%;
 }
 #display {
   font-family: "Proxima Nova Medium", sans-serif, serif;
