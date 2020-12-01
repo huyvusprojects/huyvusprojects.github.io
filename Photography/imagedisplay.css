@@ -40,8 +40,6 @@ img {
 
 .navbar {
   height: 200px;
-  overflow: scroll;
-  scroll-padding: 0 0 100px 0;
 }
 
 .filler {
