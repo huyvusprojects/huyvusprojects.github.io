@@ -6,11 +6,11 @@ html, body {
 }
 #title {
   font-family: "Nexus Typewriter Pro", sans-serif, serif;
-  font-size: 1.5em;
-  line-height: 1em;
+  font-size: 1.2em;
+  line-height: 0.8em;
   position: fixed;
   width: 250px;
-  height: 150px;
+  height: 100px;
   top: 20px;
   left: 40px;
 }
@@ -20,20 +20,20 @@ html, body {
   width: 100%;
 }
 
-.filler {
-  height: 30%;
-}
 .contents {
   width: 100%;
   min-height: 150px;
-  height: 70%;
+  height: 70vh;
 }
 .information {
-  height: 50%;
+  height: 60%;
+}
+.filler {
+  height: 40%;
 }
 
 .navbar {
-  height: 50%;
+  height: 30vh;
 }
 #display {
   font-family: "Proxima Nova Medium", sans-serif, serif;
@@ -45,7 +45,7 @@ table {
   width: 100%;
 }
 a { color: inherit; }
-
+a:hover { COLOR: #999999 }
 tr {
   height: 33.2%;
   width: 100%;

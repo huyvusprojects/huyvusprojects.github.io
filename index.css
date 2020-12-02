@@ -13,7 +13,12 @@ html, body {
   height: 150px;
   top: 20px;
   left: 40px;
+
 }
+#title:hover {
+  color: #999999;
+}
+
 
 .container {
   position: fixed;
@@ -41,8 +46,11 @@ html, body {
 
 a {
   color: inherit;
-}
 
+}
+a:hover { COLOR: #999999 }
+
+}
 tr {
   height: 33.2%;
   width: 100%;
