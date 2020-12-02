@@ -24,6 +24,6 @@ def main():
 	mid = autoload(filecount)
 	return start + mid + end
 
-file = open("HeycamelCeramics.html","w")
+file = open("FW19.html","w")
 file.write(main())
 file.close()
