@@ -27,6 +27,10 @@ html, body {
 
 }
 
+.empty {
+  height: 80vh;
+}
+
 img {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -39,7 +43,7 @@ img {
 }
 
 .navbar {
-  height: 200px;
+  height: 20vh;
 }
 
 .filler {
