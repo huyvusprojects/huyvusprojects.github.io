@@ -12,7 +12,7 @@ def autoload(num):
 		mid += append(i)
 	return mid
 def count_files():
-    return len([name for name in os.listdir('images') if os.path.isfile('images/' + name)])
+    return len([name for name in os.listdir('images') if os.path.isfile('images/' + name) and name != '.DS_Store'])
 def main():
 	filecount = count_files()
 	with open('front.txt') as f:
@@ -23,7 +23,6 @@ def main():
 	end = "".join(end)
 	mid = autoload(filecount)
 	return start + mid + end
-
 file = open("Summer20.html","w")
 file.write(main())
 file.close()

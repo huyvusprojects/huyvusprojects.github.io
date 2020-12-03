@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Paradise Yearbook</title>
-  <link rel="stylesheet" href="../imagedisplay.css" />
+  <link rel="stylesheet" href="../../imagedisplay.css" />
 </head>
 
 <body>
