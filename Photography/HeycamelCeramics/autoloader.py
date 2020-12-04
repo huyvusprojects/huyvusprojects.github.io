@@ -23,6 +23,6 @@ def main():
 	end = "".join(end)
 	mid = autoload(filecount)
 	return start + mid + end
-file = open("FW19.html","w")
+file = open("HeycamelCeramics.html","w")
 file.write(main())
 file.close()
