@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Paradise Summer 20</title>
+  <title>Hi~!</title>
   <link rel="stylesheet" href="../../imagedisplay.css" />
 </head>
 
