@@ -23,6 +23,6 @@ def main():
 	end = "".join(end)
 	mid = autoload(filecount)
 	return start + mid + end
-file = open("InstantFilms.html","w")
+file = open("Dumami.html","w")
 file.write(main())
 file.close()

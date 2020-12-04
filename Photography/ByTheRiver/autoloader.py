@@ -23,6 +23,6 @@ def main():
 	end = "".join(end)
 	mid = autoload(filecount)
 	return start + mid + end
-file = open("CollectorsLGBT.html","w")
+file = open("River.html","w")
 file.write(main())
 file.close()
