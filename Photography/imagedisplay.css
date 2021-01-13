@@ -71,3 +71,10 @@ td {
   text-align: center;
   vertical-align: middle;
 }
+
+.notes {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Nexus Typewriter Pro", sans-serif, serif;
+}
