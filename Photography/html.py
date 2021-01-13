@@ -24,7 +24,7 @@ def get_title_text(link):
             title_text += line
         file.close()
 
-        return title_text[:-1].replace("\n", "<br>")
+        return title_text.replace("\n", "<br>")
     else:
         return None
 
