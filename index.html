@@ -10,11 +10,9 @@
 
     gtag('config', 'G-T52QBM4SSG');
 
-    ga('send', {
-      hitType: 'event',
-      eventCategory: 'Views',
-      eventAction: 'click',
-      eventLabel: 'Index'
+    gtag('event', "view", {
+      'event_category': "view_page",
+      'event_label': "index",
     });
   </script>
 
