@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Hi~!</title>
-  <link rel="stylesheet" href="../imagedisplay.css" />
+  <link rel="stylesheet" href="../../imagedisplay.css" />
 </head>
 
 <body>
