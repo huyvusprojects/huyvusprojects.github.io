@@ -56,6 +56,6 @@ def array_wrapper(link):
 #print(get_text(os.path.dirname(os.path.realpath(__file__)) + "/front.txt"))
 #print(os.path.dirname(os.path.realpath(__file__)))
 #print(get_title_text(os.path.dirname(os.path.realpath(__file__)) + "\\Toaster"))
-print(write_html(os.path.dirname(os.path.realpath(__file__)) + "/LadanTet"))
+#print(write_html(os.path.dirname(os.path.realpath(__file__)) + "/LadanTet"))
 #print(write_html())
 #print(get_image_count(os.path.dirname(os.path.realpath(__file__)) + "\\Potato\\Potatoe"))
