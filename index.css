@@ -1,69 +1,112 @@
+@font-face {
+  font-family: Nexus;
+  src: url(NexusTypewriterWeb.ttf);
+}
+
+@font-face {
+  font-family: AvenirBook;
+  src: url(AvenirBook.ttf);
+}
+
+@font-face {
+  font-family: AvenirBlack;
+  src: url(AvenirBlack.ttf);
+}
+
+
 html, body {
-  min-height: 100%;
   width: 100%;
-  margin: 0;
+  min-width: 1200px;
+  height: 90%;
+  font-family: AvenirBook, helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.Sidebar {
+  width: 200px;
+  height: 100%;
+  float: left;
+  display: inline;
+  margin-left: 10px;
 }
 
 #title {
-  font-family: "Nexus Typewriter Pro", sans-serif, serif;
-  font-size: 1.5em;
-  line-height: 1em;
-  position: fixed;
-  width: 250px;
-  height: 150px;
-  top: 20px;
-  left: 40px;
+  font-family: Nexus, helvetica, sans-serif;
 
 }
 #title:hover {
   color: #999999;
 }
 
+.subcontainer {
+  margin-top: 20px;
+  height: 30px;
+  width: 100%;
+  font-family: AvenirBlack, helvetica, sans-serif;
+}
 
-.container {
-  position: fixed;
-  height: 100%;
+.flavortext {
+  margin-top: 30px;
+  height: 30px;
   width: 100%;
 }
 
-.filler1 {
-  height: 15%;
+.flavorflavortext {
+  text-align:right;
+  margin-top: 40px;
+  height: 30px;
+  margin-left: 30%;
+  width: 60%;
 }
 
-.filler2 {
-  height: 15%;
-}
 
-.contents {
-  min-height: 250px;
-  height: 70%;
-}
 
-#display {
+
+
+.Content {
+  min-width: 300px;
+  margin-left: 100px;
+  width: 70%;
   height: 100%;
-  width: 100%;
+  float: left;
+  display: inline;
+
 }
+
+.Topbar {
+  width: 100%;
+  height: 25%;
+}
+
+.TopbarContainer {
+  width: 125px;
+  margin-right: 15px;
+  margin-top: 30px;
+  height: 30px;
+  float: left;
+
+}
+
+.ImageContainer {
+  width: 50%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
 
 a {
+  text-decoration:none;
   color: inherit;
 
 }
 a:hover { COLOR: #999999 }
 
-}
-tr {
-  height: 33.2%;
-  width: 100%;
-}
-
-td {
-  width: 33%;
-  text-align: center;
-  vertical-align: middle;
-  font-family: "Proxima Nova Medium", sans-serif, serif;
-  font-size: 2.4em;
-}
-
-.sidefilter {
-  width: 1%;
 }
