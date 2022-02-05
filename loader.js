@@ -57,18 +57,6 @@ function load_preload_array() {
 }
 
 preload(load_preload_array());
-/*
-var image_preload_holder = [];
-
-function preloadImage(counter)
-{
-  image_preload_holder.push(new Image().src = "Photography/" + name + "/" + counter.toString() + ".jpg");
-}
-
-for (var j = 1; j <= image_count; j++) {
-  preloadImage(j);
-}
-*/
 
 
 $('.ImageContainer').on("click", function (e) {
