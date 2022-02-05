@@ -1,4 +1,3 @@
-console.log(name);
 
 // Photo Count
 var river = 3;
@@ -8,7 +7,7 @@ var paradise = 3;
 
 
 // If you want to add more labels just let me know
-// It should take less than a day to get that operationa;
+// It should take less than a day to get that operational
 
 // DO NOT TOUCH BELOW OR I WILL FIND YOU... and probably give you fried chicken
 
