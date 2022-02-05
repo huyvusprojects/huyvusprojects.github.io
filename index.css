@@ -27,7 +27,7 @@ html, body {
 }
 
 .Sidebar {
-  width: 200px;
+  width: 160px;
   height: 100%;
   float: left;
   display: inline;
@@ -36,7 +36,7 @@ html, body {
 
 #title {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   height: 85px;
   font-family: Nexus, helvetica, sans-serif;
 
