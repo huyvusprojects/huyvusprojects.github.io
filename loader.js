@@ -41,7 +41,43 @@ function load_next_image() {
 }
 
 
+function preload(image_array) {
+  $(image_array).each(function(){
+      (new Image()).src = this;
+  });
+}
+
+function load_preload_array() {
+  var load = [];
+  for (var j = 1; j <= image_count; j++) {
+    load.push("Photography/" + name + "/" + j.toString() + ".jpg");
+  }
+  console.log(load);
+  return load
+}
+
+preload(load_preload_array());
+/*
+var image_preload_holder = [];
+
+function preloadImage(counter)
+{
+  image_preload_holder.push(new Image().src = "Photography/" + name + "/" + counter.toString() + ".jpg");
+}
+
+for (var j = 1; j <= image_count; j++) {
+  preloadImage(j);
+}
+*/
+
+
 $('.ImageContainer').on("click", function (e) {
-      e.preventDefault();
-      $("#imageDisplay").attr("src", load_next_image());
- });
+  e.preventDefault();
+  $('.ImageContainer').fadeTo(200, 0.2);
+  $('.ImageContainer').promise().done(function(){
+  // will be called when all the animations on the queue finish
+    $("#imageDisplay").attr("src", load_next_image());
+    $('.ImageContainer').fadeTo(200, 1);
+  });
+
+});
