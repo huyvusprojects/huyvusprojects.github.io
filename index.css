@@ -35,6 +35,9 @@ html, body {
 }
 
 #title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 85px;
   font-family: Nexus, helvetica, sans-serif;
 
 }
@@ -79,7 +82,7 @@ html, body {
 
 .Topbar {
   width: 100%;
-  height: 25%;
+  height: 105px;
 }
 
 .TopbarContainer {
