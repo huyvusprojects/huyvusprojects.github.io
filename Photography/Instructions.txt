@@ -1,0 +1,14 @@
+This is just here in case you forget and I'm sleeping or something
+
+- Put in images into the corresponding folder, make sure they are "1.jpg", "2.jpg", and so on, in the order you want
+it to show
+
+- Afterwards, put in the updated image count into loader.js, found in the main folder
+- river for ByTheRiver, tuoi_tuoi for TuoiTuoi, nam_dinh for Nam Dinh, paradise for Paradise sgn and so on
+- Should be self explanatory
+
+- Then mix for a while, put it in the oven for 30 seconds, push it, and enjoy!
+
+
+- Recipe by Max
+- Deliciousness not guaranteed

@@ -104,7 +104,6 @@ html, body {
 
 img {
   object-fit:contain;
-  object-position: left;
   width: 100%;
   height: 100%;
 }
@@ -117,4 +116,9 @@ a {
 }
 a:hover { COLOR: #999999 }
 
+.selected {
+  color: #4D4DFF
+}
+.selector_hyperlink:hover {
+  color: #8D8DFF
 }
