@@ -1,9 +1,9 @@
 
 // Photo Count
-var river = 3;
-var tuoi_tuoi = 3;
-var nam_dinh = 3;
-var paradise = 3;
+var river = 10;
+var tuoi_tuoi = 35;
+var nam_dinh = 20;
+var paradise = 8;
 
 
 // If you want to add more labels just let me know
